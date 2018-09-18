@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+            *{
+                box-sizing: border-box;
+            }
+			div{
+				float: left;
+				margin: 0px;
+				padding: 0px;
+                background-color: seagreen;
+			}
+			.tall{
+				width: 30px;
+				height: 80px;
+			}
+			.bar{
+				width: 90px;
+				height: 25px;
+			}
+            .line{
+                width: 90px;
+                height: 5px;
+            }
+            .bar, .tall, .line{
+                border: 1px solid white;
+            }
+			.container{
+				width: 90px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<div class="bar"></div>
+            <div class="line"></div>
+			<div class="container">
+                <div class="tall"></div>
+                <div class="tall"></div>
+                <div class="tall"></div>
+            </div>
+            <div class="bar"></div>
+		</div>
+	</body>
+</html>
