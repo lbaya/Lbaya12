@@ -1,0 +1,133 @@
+html {
+  margin: 0;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: red;
+  color: black;
+  }
+
+
+html::before,
+html::after,
+body::before,
+body::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: .5vmin;
+  height: .5vmin;
+  border-radius: 50%;
+  color: black; 
+}
+
+
+  h1 {
+  margin: 0;
+  height: 12vmin;
+  width: 120vmin;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  color: black;
+}
+h2 {
+
+  color: red;
+  font-size: 35px;
+  font-synthesis: 90px;
+  position: absolute;
+  top:810px;
+  left: 990px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+h3{
+
+  color: red;
+  font-size: 35px;
+  font-synthesis: 90px;
+  position: absolute;
+  top: 120px;
+  left: 990px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+
+h1::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  z-index: -1;
+  top: -26vmin;
+  left: 29vmin;
+  width: 50vmin;
+  height: 50vmin;
+  border-radius: 50%;
+  border: 1.3vmin solid black;
+  box-sizing: border-box;
+}
+
+em {
+  font-family: 'Josefin Sans', sans-serif;
+  color: currentColor;
+  font-size: 10vmin;
+  position: relative;
+  font-style: normal;
+  width: 20vmin;
+  text-align: center;
+}
+
+em.planet {
+  -webkit-animation: planet-rotate .05s linear infinite;
+  animation: planet-rotate .05s linear infinite;
+  position: relative;
+  color: black;
+  font-size: 100px;
+}
+
+em.planet::before {
+  content: "";
+  position: absolute;
+  top: -.5vmin;
+  left: 3.5vmin;
+  z-index: -1;
+  width: 13vmin;
+  height: 13vmin;
+  border-radius: 10%;
+  background: black;
+}
+
+em.planet.left {
+  -webkit-transform-origin: 40vmin 5vmin;
+  transform-origin: 40vmin 5vmin;
+  color: white;
+}
+
+em.planet.right {
+  -webkit-transform-origin: -20vmin 5vmin;
+  transform-origin: -20vmin 5vmin;
+  color: white;
+}
+
+@-webkit-keyframes planet-rotate {
+  to {
+    -webkit-transform: rotate(1turn);
+  }
+
+
+@keyframes planet-rotate {
+  to {
+    transform: rotate(1turn);
+  }
+
+
+
