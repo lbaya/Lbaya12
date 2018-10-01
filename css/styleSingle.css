@@ -42,20 +42,19 @@ body::after {
 }
 h2 {
 
-  color: red;
-  font-size: 35px;
-  font-synthesis: 90px;
-  position: absolute;
-  top:810px;
-  left: 990px;
+  color: black;
+  font-size: 50px;
+  position: relative;
+  top:210px;
+  left: 30px;
   font-family: 'Josefin Sans', sans-serif;
 }
 h3{
 
-  color: red;
+  color: black;
   font-size: 35px;
   font-synthesis: 90px;
-  position: absolute;
+  position: relative;
   top: 120px;
   left: 990px;
   font-family: 'Josefin Sans', sans-serif;
@@ -87,11 +86,11 @@ em {
 }
 
 em.planet {
-  -webkit-animation: planet-rotate .05s linear infinite;
-  animation: planet-rotate .05s linear infinite;
+  -webkit-animation: planet-rotate .005s linear infinite;
+  animation: planet-rotate .005 linear infinite;
   position: relative;
-  color: black;
-  font-size: 100px;
+  color: white;
+  font-size: 200px;
 }
 
 em.planet::before {
@@ -103,19 +102,25 @@ em.planet::before {
   width: 13vmin;
   height: 13vmin;
   border-radius: 10%;
-  background: black;
+  background: white;
 }
 
 em.planet.left {
   -webkit-transform-origin: 40vmin 5vmin;
   transform-origin: 40vmin 5vmin;
   color: white;
+  font-size: 200px;
+  position: relative;
+  color: black;
 }
 
 em.planet.right {
   -webkit-transform-origin: -20vmin 5vmin;
   transform-origin: -20vmin 5vmin;
   color: white;
+  font-size: 200px;
+  position: relative;
+  color: black;
 }
 
 @-webkit-keyframes planet-rotate {
@@ -129,5 +134,8 @@ em.planet.right {
     transform: rotate(1turn);
   }
 
+.ad {
 
+  width: 50px;
+}
 
