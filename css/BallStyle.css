@@ -1,0 +1,35 @@
+h1{ 
+font-size: 40px;
+font-family: 'Pacifico', cursive;
+position: relative;
+top: 0;
+left: 0;
+color: goldenrod;
+ }
+
+
+
+div{
+	color: lightgrey;
+
+
+
+	}
+
+ li{
+  font-size:20px;
+
+
+ }
+
+ body{ 
+
+background-color: lightgrey;
+  }
+
+  .tabBar{
+  width: 200px;
+  height: 50px;
+  color: lightgrey;
+
+  }
