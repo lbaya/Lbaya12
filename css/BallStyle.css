@@ -23,8 +23,11 @@ div{
  }
 
  body{ 
+   background-image: url("../images/Ball.jpg");
+   background-repeat: no-repeat;
 
-background-color: lightgrey;
+
+
   }
 
   .tabBar{
