@@ -1,9 +1,10 @@
 h1{ 
-font-size: 40px;
+font-size: 150px;
 font-family: 'Pacifico', cursive;
+text-align: center;
 position: relative;
 top: 0;
-left: 0;
+left: 100;
 color: goldenrod;
  }
 
@@ -16,6 +17,16 @@ div{
 
 	}
 
+ a {
+ 	font-family: 'Amatic SC', cursive;
+ 	font-size: 70px;
+    position: relative;
+    top: -10px;
+    left: 660px;
+ 	text-align: center;
+ 	color: cornflowerblue;
+ }
+
  li{
   font-size:20px;
 
@@ -23,8 +34,8 @@ div{
  }
 
  body{ 
-   background-image: url("../images/Ball.jpg");
-   background-repeat: no-repeat;
+   background-image: url("../images/Backy.jpg");
+   background-repeat: repeat-x;
 
 
 
