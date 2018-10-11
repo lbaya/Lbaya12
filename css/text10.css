@@ -1,0 +1,91 @@
+h1{
+font-size:80px ;
+font-family: 'Anton', sans-serif;
+
+text-align: left;
+margin-top: 500px;
+color: white;
+}
+
+p{
+
+font-size: 20px;
+margin-left: 500px;
+margin-right: 400px;
+font-family: 'Nunito', sans-serif;
+position: relative;
+color: white;
+
+}
+h2{
+font-family: 'Fredoka One', cursive;
+
+/*margin-left: 600px;*/
+/*margin-right: 600px;*/
+text-align: right;
+margin-bottom: 300px;
+font-size: 30px;
+color: white;
+}
+
+h3{
+
+font-family: 'Fredoka One', cursive;
+text-align: right;
+color: white;
+}
+
+.container{
+
+	width: 1600px;
+	height: 200px;
+	/*background-color: blue;*/
+	float: left;
+	font-size: 15px;
+
+}
+
+.second{
+
+	width: 1600px;
+	height: 200px;
+	/*background-color: blue;*/
+	float: right;
+	font-size: 15px;
+	position: absolute;
+	top: 560px;
+	left: 760px;
+
+}
+
+.head{
+
+	width: 300px;
+	height: 350px;
+	margin-top:100px;
+	position: absolute;
+	top: -260px;
+	left: 1260px;
+	/*transform: rotate(40deg);*/
+
+}
+
+.byLine{
+    width: 300px;
+    height: 250px;
+    /*background-color: blue;*/
+    position: relative;
+    top: 1070px;
+    left: 840px;
+    /*transform: rotate(-50deg);*/
+
+
+}
+.big{
+
+  width: 5000px;
+  height: 1800px;
+  background-color: red;
+
+
+}

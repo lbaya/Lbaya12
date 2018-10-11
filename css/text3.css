@@ -1,0 +1,38 @@
+h1{
+font-size:60px ;
+font-family: 'Shadows Into Light', cursive;
+
+text-align: left;
+}
+
+p{
+
+font-size: 20px;
+margin-left: 400px;
+margin-right: 400px;
+font-family: 'Roboto Mono', monospace;
+position: relative;
+
+}
+h2{
+
+font-family: 'Shadows Into Light', cursive;
+/*margin-left: 600px;*/
+/*margin-right: 600px;*/
+text-align: left;
+margin-bottom: 300px;
+}
+
+h3{
+
+font-family: 'Shadows Into Light', cursive;
+text-align: left;
+}
+
+.container{
+
+	width: 1500px;
+	height: 200px;
+	/*background-color: blue;*/
+
+}
