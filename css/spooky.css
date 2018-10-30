@@ -1,0 +1,26 @@
+.ghostH{
+  
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  color: black;
+  position: relative;
+  left: 100px;
+  top: 100px;
+ 
+}
+.ghostB{
+ width: 100px;
+ height: 300px;
+ color:black;
+ position: relative;
+ left: 100px;
+ top: 50px;
+}
+
+
+body{ 
+  background-color: pink;
+
+
+}
