@@ -1,10 +1,18 @@
 
 body{ 
-  background-color: grey;
+  background-color: black;
 
 
 }
 
+h1{
+  font-size: 200px;
+  color: yellow;
+  font-family: 'VT323', monospace;
+  position: relative;
+  top: 300px;
+  left:1300px;
+}
 
 
 .container {
@@ -16,7 +24,7 @@ body{
   right: 0;
   width: 200px;
   height: 300px;
-  background-color: grey;
+  
 }
 
 .ghostH{
@@ -24,7 +32,7 @@ body{
   width: 300px;
   height: 300px;
   border-radius: 50%;
-  background-color: black;
+  background-color:pink;
   position: relative;
   left: 100px;
   top: 200px;
@@ -32,8 +40,8 @@ body{
 }
 .ghostB{
  width: 300px;
- height: 400px;
- background-color:black;
+ height: 200px;
+ background-color:pink;
  position: relative;
  left: 100px;
  top: 50px;
@@ -41,42 +49,112 @@ body{
 
 .lefteye{
 
-  width: 50px;
-  height: 50px;
+  width: 110px;
+  height: 140px;
   float: left;
   background-color: white;
    position: relative;
- left: 200px;
- top: -400px;
+ left: 150px;
+ top: -200px;
  border-radius: 100%;
+}
+.pupilL{
+width: 70px;
+  height: 90px;
+  float: left;
+  background-color: lightblue;
+   position: relative;
+ left: 150px;
+ top: 20px;
+ border-radius: 100%;
+ z-index: 1;
+
+
 }
 
 .righteye{
-width: 50px;
-  height: 50px;
+width: 110px;
+  height: 140px;
   float: left;
   background-color: white;
    position: relative;
  left: 300px;
- top: -400px;
+ top: -340px;
+ border-radius: 100%;
+
+
+}
+.pupilR{
+width: 70px;
+  height: 90px;
+  float: left;
+  background-color: lightblue;
+   position: relative;
+ left: -150px;
+ top: 20px;
  border-radius: 100%;
 
 
 }
 
-.innereye{
-width: 60px;
-  height: 6px;
+.ghostRolls1{
+width: 90px;
+  height: 90px;
   float: left;
   background-color: pink;
    position: relative;
- left: 80px;
- top: 100px;
- border-radius: 10%;
-
+ left: 200px;
+ top: -130px;
+ border-radius: 100%;
 
 
 }
+.ghostRolls2{
+width: 90px;
+  height: 90px;
+  float: left;
+  background-color: pink;
+   position: relative;
+ left: 130px;
+ top: -218px;
+ border-radius: 100%;
+
+
+}
+.ghostRolls3{
+width: 90px;
+  height: 90px;
+  float: left;
+  background-color: pink;
+   position: relative;
+ left: 170px;
+ top: -308px;
+ border-radius: 100%;
+
+
+}
+
+.ghostRolls4{
+width: 90px;
+  height: 90px;
+  float: left;
+  background-color: pink;
+   position: relative;
+ left: 10px;
+ top: -308px;
+ border-radius: 100%;
+
+
+}
+
+
+
+
+
+
+
+
+
 
 
 
