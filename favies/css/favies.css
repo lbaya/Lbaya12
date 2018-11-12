@@ -1,0 +1,202 @@
+.container{
+
+}
+img{
+
+	width: 600px;
+	height: 600px;
+	margin-left: 20px;
+
+}
+.header {
+	font-family: 'Raleway', sans-serif;
+
+	font-size: 50px;
+	position: relative;
+	top: 300px;
+	color: white;
+	text-align: center
+	transition: all 2s ease;
+}
+.sandybrownBG{
+	background-color: sandybrown;
+	width: 1000px;
+	height: 800px;
+	float: left;
+
+}
+.pinkBG{
+	background-color: pink;
+	width: 1000px;
+	height: 800px;
+	float: left;
+	
+}
+.Rolly{
+	font-family: 'Raleway', sans-serif;
+	color: palevioletred;
+	text-align: center;
+	font-size: 40px;
+
+}
+
+.rollyinfo{
+	width: 300px;
+	height: 500px;
+	background-color: none;
+	position: relative;
+	left: 650px;
+}
+
+.rollie{
+
+	width: 600px;
+	height: 600px;
+	margin-left: 20px;
+	position: relative;
+	top: -500px;
+
+}
+
+.may{
+	font-family: 'Raleway', sans-serif;
+	color: palevioletred;
+	text-align: center;
+	font-size: 40px;
+
+}
+
+.mintBG{
+	background-color: lightgreen;
+	width: 1000px;
+	height: 800px;
+	float: left;
+	
+}
+
+.mayinfo{
+	width: 300px;
+	height: 500px;
+	background-color: none;
+	position: relative;
+	left: 650px;
+}
+
+.mayy{
+
+	width: 600px;
+	height: 600px;
+	margin-left: 20px;
+	position: relative;
+	top: -500px;
+
+}
+
+
+
+.cornflowerblueBG{
+	background-color: cornflowerblue;
+	width: 1000px;
+	height: 800px;
+	float: left;
+	
+}
+
+.plumBG{
+	background-color: plum;
+	width: 1000px;
+	height: 800px;
+	float: left;
+	
+}
+
+.newtinfo{
+	width: 300px;
+	height: 500px;
+	background-color: none;
+	position: relative;
+	left: 650px;
+}
+
+.newty{
+
+	width: 600px;
+	height: 600px;
+	margin-left: 20px;
+	position: relative;
+	top: -500px;
+
+}
+
+
+.turquoiseBG{
+	background-color: turquoise;
+	width: 1000px;
+	height: 800px;
+	float: left;
+	
+}.evainfo{
+	width: 300px;
+	height: 500px;
+	background-color: none;
+	position: relative;
+	left: 650px;
+}
+
+.evan{
+
+	width: 600px;
+	height: 600px;
+	margin-left: 20px;
+	position: relative;
+	top: -500px;
+
+}
+
+.rollyinfo{
+	width: 300px;
+	height: 500px;
+	background-color: none;
+	position: relative;
+	left: 650px;
+}
+
+.rollie{
+
+	width: 600px;
+	height: 600px;
+	margin-left: 20px;
+	position: relative;
+	top: -500px;
+
+}
+p{
+	font-size: 20px;
+	color: black;
+	font-family: 'Raleway', sans-serif;
+}
+li{
+	font-size: 16px;
+	color: black;
+	font-family: 'Raleway', sans-serif;
+}
+.chloeinfo{
+	width: 300px;
+	height: 500px;
+	background-color: none;
+	position: relative;
+	left: 650px;
+}
+
+.chlo{
+
+	width: 600px;
+	height: 600px;
+	margin-left: 20px;
+	position: relative;
+	top: -500px;
+
+}
+.jqClick {
+    cursor: pointer;
+}
