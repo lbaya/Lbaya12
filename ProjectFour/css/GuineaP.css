@@ -2,26 +2,44 @@ body{
 background: sandybrown;
 
 }
-.container{
+#container{
 	width: 2000px;
-	height: 20000px;
+	
 	float: left;
 	background-color: white;
 	position: relative;
 	left:500px;
+	margin: 0px auto;
+}
+.linkcontainer{
+	width: 2000px;
+	height: 200px;
+	position: relative;
+	top: 0;
+	background-color: none;
 }
 .linkBar{
 	width: 2000px;
-	height: 5px;
+	height: 800px
+	margin: auto;
 	background-color: black;
 	position: relative;
 	top: 60px;
 }
+.links{
+	background-color: sandybrown;
+
+}
+.ogweb{ 
+	color: black;
+ }
 .moreinfo{
 	width: 2000px;
 	height: 5px;
 	position: relative;
 	left: 50px;
+	margin: auto;
+
 }
 
 .rescue{
@@ -30,6 +48,7 @@ background: sandybrown;
 	position: relative;
 	left: 600px;
 	top: -5px;
+	margin: auto;
 }
 
 .adopt{
@@ -38,6 +57,7 @@ background: sandybrown;
 	position: relative;
 	left: 1150px;
 	top: -10px;
+	margin: auto;
 }
 
 .toys{
@@ -46,22 +66,24 @@ background: sandybrown;
 	position: relative;
 	left: 1680px;
 	top: -10px;
+	margin: auto;
 }
 
 .Gpig{
 	width: 1000px;
-	height: 800px;
+	/*height: 800px;*/
 	position: relative;
 	left: 0px;
 	top: 10px;
-	background-color: pink;
-	align-items: center;
+	background-color: none;
+	margin: auto;
 }
 
 img{
     width: 1200px;
     height: 800px;
     align-content: center;
+    position: relative;
 
 }
 
@@ -87,6 +109,9 @@ h1{
 p{  
 	font-family: 'Karla', sans-serif;
 	font-size: 35px;
+}
+.Tcontainer1{
+	width: 1400px;
 }
 
 .title1{
@@ -120,11 +145,12 @@ h2{
 }
 .Tpig{
 	width: 1400px;
-	height: 1000px;
+	/*height: 1000px;*/
 	position: relative;
-	left: 300px;
+	left: 0px;
 	top: 5px;
-	background-color: pink;
+	background-color: none;
+	margin: auto;
 }
 img{
 	width: 1400px;
@@ -223,9 +249,12 @@ img{
 	width: 100px;
 	height: 100px ;
 }
-img{ 
-	width: 1400px;
-	height: 1000px;
+.firstpic{ 
+	width: 1500px;
+	
+ }
+ .blackwhite{
+ 	max-width: 100%;
  }
 
 .handlingP{
@@ -328,19 +357,162 @@ a:hover {
 	width: 1400px; 
 	height: 800px;
 	position: relative;
-	top: 2500px;
-	margin-left: 300px;
+	top: 0px;
+	margin-left: 0px;
 
 }
 
 .hay{
-	width: 1100px;
-	height: 800px;
+	width: 400px;
+	/*height: 800px;*/
 }
 
-@media only screen and (max-width: 1200px) {
-    .container {
+.video{
+	width: 1400px;
+	height: 800px;
+	background-color: blue;
+	position: relative;
+	top: 2300px;
+	left: 300px;
+}
+
+
+@media only screen and (min-width: 1900px) {
+    #container {
         background-color: lightgreen;
-        width: calc(100%-350px);
+        width: 100%;
+        
         
     }
+    .ogweb{
+    	width: 25%;
+    	font-size: 40px;
+    }
+    .moreinfo{
+    	width: 25%;
+    }
+
+    .rescue{
+    	width: 25%;
+    }
+
+    .adopt{
+    	width: 25%;
+    }
+
+    .toys{
+    	width: 25%;
+    }
+
+
+    .picHead{
+    	width: 80%
+    	    }
+
+    .Tpig{
+    	width: 50%;
+    	background-color: none;
+    	position: relative;
+    	left: 0px;
+    }
+    img{
+    	width: 4000px;
+    	height: 100%;
+    	position: relative;
+    	left: -400px;
+    	/*margin-left: ;
+    	margin-right: auto;*/
+
+    }
+
+    .header{ 
+    	width: 100%;
+    	position: relative;
+    	left: -400px;
+     }
+
+     .choosingP{
+     	width: 100%;
+     }
+     .title1{
+     	width: 50%;
+     }
+
+     .healthP{
+     	width: 100%;
+     }
+     .title2{
+     	width: 50%;
+     }
+     
+     .behaviorP{
+     	width: 100%;
+     }
+     .title3{
+     	width: 50%;
+     }
+     .feedingP{
+     	width: 100%;
+     }
+     .title4{
+     	width: 50%;
+     }
+     .handlingP{
+     	width: 100%;
+     }
+     .title5{
+     	width: 50%;
+     }
+     .exerciseP{
+     	width: 100%;
+     }
+     .title6{
+     	width: 50%;
+     }
+     .bathP{
+     	width: 100%;
+     }
+     .title7{
+     	width: 50%;
+     }
+
+     
+     
+
+     .Tcontainer1{
+     	width: 100%;
+     }
+     .linkBar{
+     	width: 100%;
+        background-color: none ;
+     }
+     .links{
+     	width: 100%;
+
+     }
+     .blackwhite{
+     	width: 1000px;
+    	left: 0;
+    	margin: auto;
+     }
+     .linkcontainer{
+     	width: 100%;
+     }
+     .moreinfo{
+     	width: 100%;
+     }
+     .rescue{
+     	width: 100%;
+     }
+     .adopt{
+     	width: 100%;
+     }
+     .toys{
+     	width: 100%;
+     }
+     .video{
+     	width: 50%;
+     }
+     .pigvid{
+     	width: 100%;
+     }
