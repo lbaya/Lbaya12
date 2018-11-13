@@ -541,10 +541,23 @@ a:hover {
      	width: 100%;
      }
  }
+	 @media only screen and (max-width: 1400px) {
 
- @media only screen and (max-width: 700px) {
+	 	#container{ 
+	 		background-color: red;
+	 	 }
+
+	 	p{
+	 		font-size: 25px;
+	 	}
+
+
+
+	 }
+
+ @media only screen and (max-width: 1000px) {
     #container {
-        background-color: lightgreen;
+        background-color: green;
         width: 100%;
         
         
@@ -557,6 +570,9 @@ a:hover {
     	width: 25%;
     	font-size: 40px;
     }
+    p{
+    	font-size: 20px;
+    	   }
     .moreinfo{
     	width: 25%;
     }
@@ -608,47 +624,49 @@ a:hover {
      	width: 100%;
      }
      .title1{
-     	width: 50%;
+     	width: 30%;
      }
 
      .healthP{
      	width: 100%;
      }
      .title2{
-     	width: 50%;
+     	width: 30%;
      }
      
      .behaviorP{
      	width: 100%;
      }
      .title3{
-     	width: 50%;
+     	width: 30%;
      }
      .feedingP{
      	width: 100%;
      }
      .title4{
-     	width: 50%;
+     	width: 30%;
      }
      .handlingP{
      	width: 100%;
      }
      .title5{
-     	width: 50%;
+     	width: 30%;
      }
      .exerciseP{
      	width: 100%;
      }
      .title6{
-     	width: 50%;
+     	width: 30%;
      }
      .bathP{
      	width: 100%;
      }
      .title7{
-     	width: 50%;
+     	width: 30%;
      }
-
+     li{
+     	font-size: 20px;
+     }
      
      
 
