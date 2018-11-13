@@ -4,7 +4,7 @@ background: sandybrown;
 }
 #container{
 	width: 2000px;
-	
+	height: 20000px;
 	float: left;
 	background-color: white;
 	position: relative;
@@ -27,7 +27,7 @@ background: sandybrown;
 	top: 60px;
 }
 .links{
-	background-color: sandybrown;
+	background-color: black;
 
 }
 .ogweb{ 
@@ -157,14 +157,6 @@ img{
 	height: 1000px;
 }
 
-.picHead{
-	width: 1000px;
-	height: 900px;
-	background-color: none;
-	position: relative;
-	top: 80px;
-	left: 400px;
-}
 
 
 
@@ -250,9 +242,21 @@ img{
 	height: 100px ;
 }
 .firstpic{ 
-	width: 1500px;
+	width: 100%;
+	margin: auto;
 	
  }
+ .picHead{
+	width: 1000px;
+	height: 900px;
+	background-color: none;
+	position: relative;
+	top: 30px;
+	left: 300px;
+	margin-left: 0px;
+}
+
+
  .blackwhite{
  	max-width: 100%;
  }
@@ -375,14 +379,22 @@ a:hover {
 	top: 2300px;
 	left: 300px;
 }
+.Gpig{
+	width: 1500px;
+	background-color: none;
+}
 
 
-@media only screen and (min-width: 1900px) {
+@media only screen and (max-width: 1900px) {
     #container {
         background-color: lightgreen;
         width: 100%;
         
         
+    }
+
+    .firstpic{
+    	width: 100%;
     }
     .ogweb{
     	width: 25%;
@@ -407,6 +419,10 @@ a:hover {
 
     .picHead{
     	width: 80%
+    	background-color: none;
+    	position: relative;
+    	left: 600px;
+    	transition: ease 1s;
     	    }
 
     .Tpig{
@@ -512,7 +528,173 @@ a:hover {
      }
      .video{
      	width: 50%;
+     	height: 350px;
+     	position: relative;
+     	top: 3000px;
      }
      .pigvid{
      	width: 100%;
+     	height: 100%;
      }
+
+     .Gpig{
+     	width: 100%;
+     }
+ }
+
+ @media only screen and (max-width: 700px) {
+    #container {
+        background-color: lightgreen;
+        width: 100%;
+        
+        
+    }
+
+    .firstpic{
+    	width: 100%;
+    }
+    .ogweb{
+    	width: 25%;
+    	font-size: 40px;
+    }
+    .moreinfo{
+    	width: 25%;
+    }
+
+    .rescue{
+    	width: 25%;
+    }
+
+    .adopt{
+    	width: 25%;
+    }
+
+    .toys{
+    	width: 25%;
+    }
+
+
+    .picHead{
+    	width: 80%
+    	background-color: none;
+    	position: relative;
+    	left: 600px;
+    	transition: ease 1s;
+    	    }
+
+    .Tpig{
+    	width: 50%;
+    	background-color: none;
+    	position: relative;
+    	left: 0px;
+    }
+    img{
+    	width: 4000px;
+    	height: 100%;
+    	position: relative;
+    	left: -400px;
+    	/*margin-left: ;
+    	margin-right: auto;*/
+
+    }
+
+    .header{ 
+    	width: 100%;
+    	position: relative;
+    	left: -400px;
+     }
+
+     .choosingP{
+     	width: 100%;
+     }
+     .title1{
+     	width: 50%;
+     }
+
+     .healthP{
+     	width: 100%;
+     }
+     .title2{
+     	width: 50%;
+     }
+     
+     .behaviorP{
+     	width: 100%;
+     }
+     .title3{
+     	width: 50%;
+     }
+     .feedingP{
+     	width: 100%;
+     }
+     .title4{
+     	width: 50%;
+     }
+     .handlingP{
+     	width: 100%;
+     }
+     .title5{
+     	width: 50%;
+     }
+     .exerciseP{
+     	width: 100%;
+     }
+     .title6{
+     	width: 50%;
+     }
+     .bathP{
+     	width: 100%;
+     }
+     .title7{
+     	width: 50%;
+     }
+
+     
+     
+
+     .Tcontainer1{
+     	width: 100%;
+     }
+     .linkBar{
+     	width: 100%;
+        background-color: none ;
+     }
+     .links{
+     	width: 100%;
+
+     }
+     .blackwhite{
+     	width: 1000px;
+    	left: 0;
+    	margin: auto;
+     }
+     .linkcontainer{
+     	width: 100%;
+     }
+     .moreinfo{
+     	width: 100%;
+     }
+     .rescue{
+     	width: 100%;
+     }
+     .adopt{
+     	width: 100%;
+     }
+     .toys{
+     	width: 100%;
+     }
+     .video{
+     	width: 50%;
+     	height: 350px;
+     	position: relative;
+     	top: 3000px;
+     }
+     .pigvid{
+     	width: 100%;
+     	height: 100%;
+     }
+
+     .Gpig{
+     	width: 100%;
+     }
+ }
