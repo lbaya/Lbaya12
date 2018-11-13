@@ -1,5 +1,5 @@
 body{
-background: sandybrown;
+background: white;
 
 }
 #container{
@@ -19,15 +19,18 @@ background: sandybrown;
 	background-color: none;
 }
 .linkBar{
-	width: 2000px;
+	width: 4000px;
 	height: 800px
 	margin: auto;
-	background-color: black;
+	background-color: none;
 	position: relative;
 	top: 60px;
 }
 .links{
-	background-color: black;
+	background-color: none;
+	/*position: fixed;*/
+	/*z-index: 999;*/
+	width: 3000px;
 
 }
 .ogweb{ 
@@ -544,7 +547,7 @@ a:hover {
 	 @media only screen and (max-width: 1400px) {
 
 	 	#container{ 
-	 		background-color: red;
+	 		background-color: white;
 	 	 }
 
 	 	p{
@@ -557,36 +560,55 @@ a:hover {
 
  @media only screen and (max-width: 1000px) {
     #container {
-        background-color: green;
+        background-color: white;
         width: 100%;
         
         
     }
 
     .firstpic{
-    	width: 100%;
+    	width: 600px;
+    }
+    h1{
+    	font-size: 80px;
+    	position: relative;
+    	left: -250px;
+    	top: 200px;
     }
     .ogweb{
     	width: 25%;
-    	font-size: 40px;
+    	font-size: 20px;
     }
     p{
     	font-size: 20px;
     	   }
     .moreinfo{
     	width: 25%;
+    	position: relative;
+    	left: 700px;
+    	font-size: 50px;
+
     }
 
     .rescue{
     	width: 25%;
+    	position: relative;
+    	left: 800px;
+    	font-size: 50px;
     }
 
     .adopt{
     	width: 25%;
+    	position: relative;
+    	left: 950px;
+    	font-size: 50px;
     }
 
     .toys{
     	width: 25%;
+    	position: relative;
+    	left: 1100px;
+    	font-size: 50px;
     }
 
 
@@ -621,49 +643,69 @@ a:hover {
      }
 
      .choosingP{
-     	width: 100%;
+     	width: 140%;
+     	text-align: left;
+     	position: relative;
+     	left: -450px;
      }
      .title1{
-     	width: 30%;
+     	width: 50%;
      }
-
      .healthP{
-     	width: 100%;
+     	width: 140%;
+     	text-align: left;
+     	position: relative;
+     	left: -150px;
      }
      .title2{
-     	width: 30%;
+     	width: 50%;
      }
-     
      .behaviorP{
-     	width: 100%;
+     	width: 140%;
+     	text-align: left;
+     	position: relative;
+     	left: -150px;
      }
      .title3{
-     	width: 30%;
+     	width: 50%;
      }
      .feedingP{
-     	width: 100%;
+     	width: 140%;
+     	text-align: left;
+     	position: relative;
+     	left: 150px;
      }
      .title4{
-     	width: 30%;
+     	width: 50%;
      }
      .handlingP{
-     	width: 100%;
+     	width: 140%;
+     	text-align: left;
+     	position: relative;
+     	left: 150px;
      }
      .title5{
-     	width: 30%;
+     	width: 50%;
      }
      .exerciseP{
-     	width: 100%;
+     	width: 140%;
+     	text-align: left;
+     	position: relative;
+     	left: 150px;
      }
      .title6{
-     	width: 30%;
+     	width: 50%;
      }
      .bathP{
-     	width: 100%;
+     	width: 140%;
+     	text-align: left;
+     	position: relative;
+     	left: -150px;
      }
      .title7{
-     	width: 30%;
+     	width: 50%;
      }
+
      li{
      	font-size: 20px;
      }
@@ -702,10 +744,11 @@ a:hover {
      	width: 100%;
      }
      .video{
-     	width: 50%;
+     	width: 70%;
      	height: 350px;
      	position: relative;
      	top: 3000px;
+     	left: 150px;
      }
      .pigvid{
      	width: 100%;
@@ -715,4 +758,105 @@ a:hover {
      .Gpig{
      	width: 100%;
      }
+     .intro{
+     	width: 70%;
+     	position: relative;
+     	left: -150px;
+     }
+ }
+
+
+ @media only screen and (max-width: 600px) {
+ 	#container{
+ 		background-color: pink;
+ 	}
+ 	 .choosingP{
+     	width: 200%;
+     	text-align: left;
+     	position: relative;
+     	left: -560px;
+     }
+     .title1{
+     	width: 40%;
+     }
+     .healthP{
+     	width: 200%;
+     	text-align: left;
+     	position: relative;
+     	left: -260px;
+     }
+     .title2{
+     	width: 40%;
+     }
+     .behaviorP{
+     	width: 200%;
+     	text-align: left;
+     	position: relative;
+     	left: -260px;
+     }
+     .title3{
+     	width: 40%;
+     }
+     .feedingP{
+     	width: 200%;
+     	text-align: left;
+     	position: relative;
+     	left: 50px;
+     }
+     .title4{
+     	width: 40%;
+     }
+     .handlingP{
+     	width: 200%;
+     	text-align: left;
+     	position: relative;
+     	left: 40px;
+     }
+     .title5{
+     	width: 40%;
+     }
+     .exerciseP{
+     	width: 200%;
+     	text-align: left;
+     	position: relative;
+     	left: 40px;
+     }
+     .title6{
+     	width: 40%;
+     }
+     .bathP{
+     	width: 200%;
+     	text-align: left;
+     	position: relative;
+     	left: -260px;
+     }
+     .title7{
+     	width: 40%;
+     }
+     .video{
+     	width: 70%;
+     	height: 350px;
+     	position: relative;
+     	top: 3000px;
+     	left: 75px;
+     }
+     .pigvid{
+     	width: 100%;
+     	height: 100%;
+     }
+     .picHead{
+    	width: 80%
+    	background-color: none;
+    	position: relative;
+    	left: 400px;
+    	transition: ease 1s;
+    	    }
+
+     .intro{
+     	width: 80%;
+     	position: relative;
+     	left: -260px;
+     }
+
+
  }
