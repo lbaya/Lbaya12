@@ -387,7 +387,7 @@ a:hover {
 
 @media only screen and (max-width: 1900px) {
     #container {
-        background-color: lightgreen;
+        background-color: none;
         width: 100%;
         
         
