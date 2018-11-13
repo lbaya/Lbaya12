@@ -768,7 +768,7 @@ a:hover {
 
  @media only screen and (max-width: 600px) {
  	#container{
- 		background-color: pink;
+ 		background-color: white;
  	}
  	 .choosingP{
      	width: 200%;
