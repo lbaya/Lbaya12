@@ -1,6 +1,10 @@
 .container{
 
 }
+body{
+
+	background-color: black;
+}
 img{
 
 	width: 600px;
@@ -19,14 +23,14 @@ img{
 	transition: all 2s ease;
 }
 .sandybrownBG{
-	background-color: sandybrown;
+	background-color: black;
 	width: 1000px;
 	height: 800px;
 	float: left;
 
 }
 .pinkBG{
-	background-color: pink;
+	background-color: black;
 	width: 1000px;
 	height: 800px;
 	float: left;
@@ -67,7 +71,7 @@ img{
 }
 
 .mintBG{
-	background-color: lightgreen;
+	background-color: black;
 	width: 1000px;
 	height: 800px;
 	float: left;
@@ -95,7 +99,7 @@ img{
 
 
 .cornflowerblueBG{
-	background-color: cornflowerblue;
+	background-color: black;
 	width: 1000px;
 	height: 800px;
 	float: left;
@@ -103,7 +107,7 @@ img{
 }
 
 .plumBG{
-	background-color: plum;
+	background-color: black;
 	width: 1000px;
 	height: 800px;
 	float: left;
@@ -130,7 +134,7 @@ img{
 
 
 .turquoiseBG{
-	background-color: turquoise;
+	background-color: black;
 	width: 1000px;
 	height: 800px;
 	float: left;
@@ -172,12 +176,12 @@ img{
 }
 p{
 	font-size: 20px;
-	color: black;
+	color: white;
 	font-family: 'Raleway', sans-serif;
 }
 li{
 	font-size: 16px;
-	color: black;
+	color: white;
 	font-family: 'Raleway', sans-serif;
 }
 .chloeinfo{
@@ -199,4 +203,24 @@ li{
 }
 .jqClick {
     cursor: pointer;
+}
+
+.jqHover {
+    cursor: progress;
+}
+
+.bigger {
+    font-size: 200px;
+}
+.goaway{
+	visibility: hidden;
+}
+.black{
+	color: black;
+}
+.byechloe{
+	visibility: collapse;
+}
+.linesforchloe{
+	width: 100px;
 }
