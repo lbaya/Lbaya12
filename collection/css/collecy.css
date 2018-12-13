@@ -1,0 +1,460 @@
+.container{ 
+	width: 1500px;
+	height: 2000px;
+	background-color: white;
+
+ }
+
+/*html { 
+  background: url(./imagesC/redfabric.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}*/
+.coverphoto{
+	width: 100%;
+	height: 1000px;
+	background-color: none;
+	background: url(../imagesC/redfabric.jpg) no-repeat ;
+}
+
+.red{
+	width: 100%;
+	height: 1000px;
+	background-color: white;
+}
+
+.title{
+	width: 200px;
+	height: 600px;
+	background-color: none;
+	position: relative;
+	top: 100px;
+	margin: 30px;
+}
+
+h1{
+	color: black;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 70px;
+	line-height: 50%;
+}
+
+h2{
+	color: black;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 25px;
+	line-height: 100%;
+}
+
+h3{
+	color: black;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 70px;
+	position: relative;
+	top: 300px;
+	left: 150px;
+
+}
+
+.moreinfo{ 
+	width: 100%;
+	height: 70px;
+	background-color: crimson;
+	color: white;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 40px;
+	text-align: center;
+	border-radius: 10%;
+ }
+
+ a{
+ 	color: white;
+ }
+
+ a:link {
+ 	text-decoration: none;
+ }
+
+ a:hover{
+ 	color: black;
+ }
+
+ .pic1container{
+  width: 500px;
+  height: 333px;
+  background-color: white;
+  position: relative;
+  left: 500px;
+  background: url(../imagesC/bobo.jpg) no-repeat ;
+ }
+
+.pic2container{
+  width: 500px;
+  height: 333px;
+  background-color: blue;
+  position: relative;
+  left: 1000px;
+  top: -333px;
+  background: url(../imagesC/lamoon.jpg) no-repeat ;
+ }
+
+ .pic3container{
+  width: 500px;
+  height: 333px;
+  background-color: white;
+  position: relative;
+  top: -333px;
+  background: url(../imagesC/moon.jpg) no-repeat ;
+ }
+
+ .pic4container{
+  width: 500px;
+  height: 333px;
+  background-color: blue;
+  position: relative;
+  top: -666px;
+  left: 500px;
+  background: url(../imagesC/medusa.jpg) no-repeat ;
+ }
+
+ .pic5container{
+  width: 500px;
+  height: 333px;
+  background-color: white;
+  position: relative;
+  top: -999px;
+  left: 1000px;
+  background: url(../imagesC/loonette.jpg) no-repeat ;
+
+ }
+
+ .pic6container{
+  width: 500px;
+  height: 333px;
+  background-color: white;
+  position: relative;
+  top: -999px;
+  background: url(../imagesC/ninon.jpg) no-repeat ;
+ }
+
+ .pic7container{
+  width: 500px;
+  height: 333px;
+  background-color: white;
+  position: relative;
+  top: -1332px;
+  left: 500px;
+  background: url(../imagesC/queena.jpg) no-repeat ;
+
+ }
+
+ .pic8container{
+  width: 500px;
+  height: 333px;
+  background-color: blue;
+  position: relative;
+  top: -1665px;
+  left: 1000px;
+  background: url(../imagesC/apollo.jpg) no-repeat ;
+ }
+
+.bobo{ 
+	width: 100%;
+	height: 70px;
+	background-color: none;
+	color: white;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 80px;
+	text-align: center;
+	border-radius: 10%;
+	position: relative;
+	left: 170px;
+	top: 120px;
+ }
+
+.lamoon{ 
+	width: 100%;
+	height: 70px;
+	background-color: none;
+	color: white;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 80px;
+	text-align: center;
+	border-radius: 10%;
+	position: relative;
+	left: 170px;
+	top: 120px;
+ }
+
+ .lamoon{ 
+	width: 100%;
+	height: 70px;
+	background-color: none;
+	color: white;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 80px;
+	text-align: center;
+	border-radius: 10%;
+	position: relative;
+	left: 170px;
+	top: 120px;
+ }
+
+@media only screen and (max-width: 1000px) {
+    #container {
+        background-color: none;
+        width: 100%;
+        
+        
+    }
+
+   .container{
+        background-color: none;
+        width: 1000px;
+     }   
+
+     .red{
+	width: 100%;
+	height: 1000px;
+	background-color: white;
+} 
+
+
+     .bobo{
+     	width: 100%;
+     }
+     
+
+ .pic1container{
+  width: 500px;
+  height: 333px;
+  background-color: white;
+  position: relative;
+  left: 500px;
+ 
+ }
+
+.pic2container{
+  width: 500px;
+  height: 333px;
+  background-color: white;
+  position: relative;
+  left: 1000px;
+  top: -333px;
+  
+ }
+
+ .pic3container{
+  width: 500px;
+  height: 333px;
+  background-color: white;
+  position: relative;
+  top: -333px;
+ 
+ }
+
+ .pic4container{
+  width: 500px;
+  height: 333px;
+  background-color: white;
+  position: relative;
+  top: -666px;
+  left: 500px;
+  
+ }
+
+ .pic5container{
+  width: 500px;
+  height: 333px;
+  background-color: white;
+  position: relative;
+  top: -999px;
+  left: 1000px;
+  
+
+ }
+
+ .pic6container{
+  width: 500px;
+  height: 333px;
+  background-color: white;
+  position: relative;
+  top: -999px;
+ 
+ }
+
+ .pic7container{
+  width: 500px;
+  height: 333px;
+  background-color: white;
+  position: relative;
+  top: -1332px;
+  left: 500px;
+ 
+
+ }
+
+ .pic8container{
+  width: 500px;
+  height: 333px;
+  background-color: blue;
+  position: relative;
+  top: -1665px;
+  left: 1000px;
+ 
+ }
+
+ h1{
+	color: black;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 50px;
+	line-height: 50%;
+}
+
+h2{
+	color: black;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 18px;
+	line-height: 100%;
+}
+
+@media only screen and (max-width: 500px) {
+    #container {
+        background-color: none;
+        width: 100%;
+        
+        
+    }
+
+   .container{
+        background-color: none;
+        width: 500px;
+     }   
+
+     .red{
+	width: 100%;
+	height: 1000px;
+	background-color: white;
+} 
+
+h1{
+	color: black;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 30px;
+	line-height: 50%;
+}
+
+h2{
+	color: black;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 12px;
+	line-height: 100%;
+}
+
+@media only screen and (max-width: 500px) {
+    #container {
+        background-color: none;
+        width: 100%;
+        
+        
+    }
+
+   .container{
+        background-color: none;
+        width: 500px;
+     }   
+
+     .red{
+	width: 100%;
+	height: 1000px;
+	background-color: white;
+} 
+
+h1{
+	color: black;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 30px;
+	line-height: 50%;
+}
+
+h2{
+	color: black;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 12px;
+	line-height: 100%;
+}
+
+h3{
+	color: white;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 70px;
+
+}
+
+
+
+.moreinfo{ 
+	width: 50%;
+	height: auto;
+	background-color: crimson;
+	color: white;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 20px;
+	text-align: center;
+	border-radius: 10%;
+ }
+
+ @media only screen and (max-width: 350px) {
+    #container {
+        background-color: none;
+        width: 100%;
+        
+        
+    }
+
+   .container{
+        background-color: none;
+        width: 350px;
+     }   
+
+     .red{
+	width: 100%;
+	height: 1000px;
+	background-color: white;
+} 
+
+h1{
+	color: black;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 30px;
+	line-height: 50%;
+}
+
+h2{
+	color: black;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 12px;
+	line-height: 100%;
+}
+
+h3{
+	color: white;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 70px;
+
+}
+
+
+
+.moreinfo{ 
+	width: 50%;
+	height: auto;
+	background-color: crimson;
+	color: white;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 20px;
+	text-align: center;
+	border-radius: 10%;
+ }

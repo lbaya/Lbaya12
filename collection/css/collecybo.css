@@ -1,0 +1,205 @@
+h1{ 
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: crimson;
+	font-size: 40px;
+ }
+.container{ 
+	width: 1500px;
+	height: 4000px;
+	background-color: none;
+
+ }
+
+ a{
+	color: crimson;
+	margin-left: 25px;
+	font-family: 'Dosis', sans-serif;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+a:hover {
+	color: black;
+}
+
+.morepic{
+	width: 300px;
+	height: 800px;
+}
+
+.morepic1{
+	width: 300px;
+	height: 800px;
+	position: relative;
+	top: 300px;
+}
+
+.paras{
+	width: 600px;
+	height: 2000px;
+	background-color: white;
+	margin-right: 400px;
+	margin-left: 20px;
+}
+
+p{
+	font-family: 'Dosis', sans-serif;
+	font-size: 18px;
+	color: crimson;
+}
+
+@media only screen and (max-width: 1000px) {
+    #container {
+        background-color: none;
+        width: 100%;
+        
+        
+    }
+
+    .container{
+        background-color: none;
+        width: 1000px;
+     }    
+ 
+ p{
+	font-family: 'Dosis', sans-serif;
+	font-size: 25px;
+	color: crimson;
+}
+
+h1{ 
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: crimson;
+	font-size: 50px;
+ }
+
+.paras{
+	width: 40%;
+}
+
+a{
+	color: crimson;
+	margin-left: 25px;
+	font-family: 'Dosis', sans-serif;
+	font-size: 30px;
+}
+
+.morepic{
+	width: 100%;
+}
+
+.morepic1{
+	width: 100%;
+	position: relative;
+	top: -200px;
+
+}
+
+img{
+	width: 100%;
+}
+
+@media only screen and (max-width: 500px) {
+    #container {
+        background-color: none;
+        width: 100%;
+        
+        
+    }
+
+    .container{
+        background-color: none;
+        width: 500px;
+     }    
+ 
+ p{
+	font-family: 'Dosis', sans-serif;
+	font-size: 12px;
+	color: crimson;
+}
+
+h1{ 
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: crimson;
+	font-size: 40px;
+ }
+
+.paras{
+	width: 40%;
+}
+
+a{
+	color: crimson;
+	margin-left: 25px;
+	font-family: 'Dosis', sans-serif;
+	font-size: 12px;
+}
+
+.morepic{
+	width: 100%;
+}
+
+.morepic1{
+	width: 100%;
+	position: relative;
+	top: -500px;
+
+}
+
+img{
+	width: 100%;
+}
+
+
+@media only screen and (max-width: 350px) {
+    #container {
+        background-color: none;
+        width: 100%;
+        
+        
+    }
+
+    .container{
+        background-color: none;
+        width: 350px;
+     }   
+ 
+ p{
+	font-family: 'Dosis', sans-serif;
+	font-size: 10px;
+	color: crimson;
+}
+
+h1{ 
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: crimson;
+	font-size: 30px;
+ }
+
+.paras{
+	width: 40%;
+}
+
+a{
+	color: crimson;
+	margin-left: 25px;
+	font-family: 'Dosis', sans-serif;
+	font-size: 10px;
+}
+
+.morepic{
+	width: 100%;
+}
+
+.morepic1{
+	width: 100%;
+	position: relative;
+	top: -600px;
+
+}
+
+img{
+	width: 100%;
+}
